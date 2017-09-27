@@ -1,0 +1,23 @@
+.p-counter {
+  width: 700px;
+  &__counter {
+    width: 100%;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    font-size: 240px;
+    font-weight: bold;
+  }
+
+  &__button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    .c-button {
+      font-size: 24px;
+      width: 150px;
+      height: 50px;
+    }
+  }
+}
